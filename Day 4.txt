@@ -15,3 +15,21 @@ ctx1.fillRect(200, 100, 150, 100);
     </script></body>
 
 </html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+
+  <input list="color" name="colorname" id="colorid">
+  <datalist id="color">
+    <option value="red">
+    <option value="green">
+    <option value="blue">
+    <option value="yellow">
+    <option value="orange">
+  </datalist>
+
+
+</body>
+</html>
