@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<title>Browser tab title given here</title>
+
+<head>
+</head>
+
+<body>
+    <!-- H1 tag -->
+    <h1>H1 Tag</h1>
+    <!-- Div block tag -->
+    <div>This is HTML Page</div>
+    <!-- href tag target new tab-->
+    <a href="https://www.tutorialspoint.com/" target="_blank">open in new tab</a>
+    <!-- paragraph tag with Abbreviation -->
+    <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+</body>
+
+</html>
