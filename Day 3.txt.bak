@@ -1,0 +1,11 @@
+<form>
+<h1>Sign Up</h1>
+<label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email"><br>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" ><br>
+       <input type="radio" id="radio" name="radio" value="radio"><label >radio button</label><br>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> checkbox
+      <br>
+      <button type="submit" class="signupbtn">Sign Up</button>
+</form>
