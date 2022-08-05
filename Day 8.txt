@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+            p.dotted{
+                border-style: dotted;
+            }
+            p.dashed{
+                border-style:dashed;
+            }
+            p.none{
+                border-style:none;
+            }
+            p.groove{
+                border-style:groove;
+            }
+            p.first{
+                border-style:groove;
+                border-width:thick;
+            }
+            p.second{
+                border-style:solid;
+                border-width:15px;
+            }
+            p.third{
+                border-style:solid;
+                border-width:5px;
+                border-color: blue;
+            }
+            p.fourth{
+                border-style:solid;
+                border-width:5px;
+                border-color:aqua;
+                border-radius: 30px;
+            }
+            p.fifth{
+                border-style:solid;
+                border-width:5px;
+                border-color:rgb(240, 141, 12);
+                border-radius: 30px 15px ;
+            }
+            p.sixth{
+                border-style:solid;
+                border-width:5px;
+                border-color:aquamarine;
+                border-radius: 5px 10px 15px 20px ;
+            }
+            p.seventh{
+                border-style:solid;
+                border-width:5px;
+                border-color:beige;
+                border-radius: 5px 10px 15px;
+            }
+        </style>
+</head>
+<body>
+
+<h1>The border-style Property</h1>
+
+
+<p class="none">A demonstration on how to set the border style.
+</p>
+            <p class="groove">A demonstration on how to set the border style.
+</p>
+<p class="dotted">A demonstration on how to set the border style.</p>
+            <p class="dashed">A demonstration on how to set the border style.</p>
+            <p class="first">A demonstration on how to set the border style.</p>
+            <p class="second">A demonstration on how to set the border style.</p>
+            <p class="third">A demonstration on how to set the border style.</p>
+            <p class="fourth">A demonstration on how to set the border style.</p>
+            <p class="fifth">A demonstration on how to set the border style.</p>
+
+                 <p class="seventh">A demonstration on how to set the border style.</p>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+strong
+ {
+  
+display
+: 
+block
+;
+}
+h1{
+display:none
+}
+span{
+display:inline
+}
+</style>
+
+<body>
+<h1>This is a Heading</h1>
+<p style="
+    width: 10px;
+">This is a <strong>pa ra gr aph</strong></p>
+<div>
+<span>test1</span>
+<span>test12</span>
+<span>test11</span></div>
+</body>
+</html>
+
+
