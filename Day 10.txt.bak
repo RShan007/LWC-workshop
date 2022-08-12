@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  float: left;
+  padding: 15px; 
+}
+.divv {
+  float: right;
+  padding: 15px; 
+}
+.divvv {
+  float: none;
+  padding: 15px; 
+}
+.divvvv {
+  float: initial;
+  padding: 15px; 
+}
+.divvvvv {
+  float: inherit;
+  padding: 15px; 
+}
+.divvvvvv {
+  float: none;
+  padding: 15px; 
+}
+.div1 {
+  background: red;
+}
+
+.div2 {
+  background: yellow;
+}
+
+.div3 {
+  background: green;
+}
+</style>
+</head>
+<body>
+
+<h2>Float Next To Each Other</h2>
+
+<p>In this example, the three divs will float next to each other.</p>
+
+<div class="div1">Div 1</div>
+<div class="div2">Div 2</div>
+<div class="div3">Div 3</div>
+<div class="div1 divv">Div 1</div>
+<div class="div2 divv">Div 2</div>
+<div class="div3 divv">Div 3</div>
+<div class="div1 divvv">Div 1</div>
+<div class="div2 divvv">Div 2</div>
+<div class="div3 divvv">Div 3</div>
+<div class="div1 divvvv">Div 1</div>
+<div class="div2 divvvv">Div 2</div>
+<div class="div3 divvvv">Div 3</div>
+<div class="div1 divvvvv">Div 1</div>
+<div class="div2 divvvvv">Div 2</div>
+<div class="div3 divvvvv">Div 3</div>
+<div class="div1 divvvvvv">Div 1</div>
+<div class="div2 divvvvvv">Div 2</div>
+<div class="div3 divvvvvv">Div 3</div>
+</body>
+</html>
+
+
