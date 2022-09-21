@@ -1,0 +1,2 @@
+age = 21;
+age>21?alert('high'):(age<21?alert('low'):alert('Yes'))

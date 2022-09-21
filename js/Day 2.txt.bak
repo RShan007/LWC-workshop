@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+<script>
+let x = 3.14;
+let y = BigInt(9007199254740991);
+let z = '3';
+let a = false;
+let b = null;
+let c ;
+alert(typeof(x));
+alert(typeof(y));
+alert(typeof(z));
+alert(typeof(a));
+if(b == null){
+	alert(typeof(b));
+}
+alert(typeof(c));
+
+</script>
+
+</body>
+</html>

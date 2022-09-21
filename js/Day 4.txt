@@ -1,0 +1,9 @@
+var OS =prompt('enter the os of your system')
+
+if(OS == 'Mac'){
+  alert('Apple');
+}else if(OS == 'Ubuntu' || OS == 'Kali' || OS == 'CentOS'){
+  alert('Linux Machine');
+}else{
+  alert('others');
+}
