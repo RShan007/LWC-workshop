@@ -1,0 +1,47 @@
+********************************
+********************************
+ss("n");
+let a= function ss(n){
+    alert(`Hellow ${n}`)
+}
+********************************
+********************************
+let dept = prompt("n");
+if(dept=='HR'){
+    function ss(){
+    alert(`Hellow`)
+}
+}else{
+     function ss(){
+    alert(`false`)
+}
+}
+ss()
+********************************
+********************************
+"use strict"
+let dept = prompt("n");
+let ss;
+if(dept=='HR'){
+    ss = function(){
+    alert(`Hellow`)
+}
+}else{
+     ss = function(){
+    alert(`false`)
+}
+}
+ss()
+********************************
+********************************
+let pin = prompt("Enter",21);
+if(pin>21){
+function elg(){
+alert("Not Eligible");
+}}
+else{function elg(){
+alert("Eligible");
+}}
+elg();
+********************************
+********************************

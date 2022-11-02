@@ -1,0 +1,94 @@
+<html>
+    <body>
+        <script>
+
+            /*let fruits = ["Apple","Banana","Grapes"];
+            alert(fruits[0])//Apple
+            let[f1,f2,f3] = fruits
+            alert(f1)
+            alert(f2)
+            alert(f3)
+            alert(fruits[1])
+
+            let[fname,lname]="A X".split(' ');
+            alert(fname)
+            alert(lname)
+
+            let[fname,,,address]=["Dineshkumar","Gandhi","Oct","Chennai"]
+            alert(address)
+            alert(fname)
+
+            let details = {};
+            [details.name,details.address]="PreludeSys Chennai".split(' ');
+            alert(details.name)
+            alert(details.address)
+
+            let user = { name :"PreludeSys",address:"Chennai"};
+            for(let[key,value] of Object.entries(user)){
+                alert(`${key}:${value}`)
+            }
+
+            let [n1,n2,...names]=["PreludeSys","Demand Blue",
+            "Demand Dynamics","Chennai"]
+
+            alert(names[0])
+            alert(names[1])
+            alert(names.length)
+
+            let[name1="PreludSys",Location="Chennai"]=["Dinesh"]
+            alert(name1)
+            alert(Location)*/
+
+            //Object Destructuring
+
+            //let obj = {fname:"Sri",lname:"V",comp:"DemandBlue"};
+            /*alert(obj.fname);
+
+            for(let key in obj){
+                alert(key);
+                alert(obj[key])
+            }
+
+            for(let key of Object.keys(obj)){
+                alert(key);
+            }
+
+            for(let key of Object.values(obj)){
+                alert(key);
+            }
+
+            for(let key of Object.entries(obj)){
+                alert(key);
+            }
+
+            let obj = {fname:"Sri",lname:"V",comp:"DemandBlue"};
+            let{fname,lname,comp} = obj
+            alert(fname)
+
+            let{fname:fn,lname:ln,comp:c} = obj
+            alert(c)
+
+            let obj1 = {firstname:"Sri",lastname:"V"};
+
+            let{firstname,lastname,company="Demand Blue"} = obj1
+            alert(lastname)
+*/
+            let obj3 = {
+            firstname:"Sri",
+            lastname:"V"
+        };
+
+            let{firstname, ...rest} = obj3
+            alert(rest.lastname)
+
+            destructing the object function
+            
+
+
+
+
+
+
+        </script>
+    </body>
+</html>

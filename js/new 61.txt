@@ -1,0 +1,55 @@
+<html>
+    <body>
+        <!--<script>
+            function counter(){
+                for(let i =1;i<5;i++){
+                    alert("Counts " +i)
+                }
+            }   
+        </script>
+        <input type="button" onclick="counter()" value="counts"> 
+        <once we click button it has to show a text box and another
+            button-->
+            <button data-toggle-id="SM">
+                Show the form
+            </button>
+            <form id="SM" hidden>
+                email : <input type="email">
+            </form>
+            <script>
+                document.addEventListener('click',function(event){
+                    let id = event.target.dataset.toggleId;
+                    if(!id) return;
+                    let elem = document.getElementById(id);
+                    elem.hidden =!elem.hidden;
+                })
+            </script>
+            
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<body>
+ <div class="counter_conatiner">
+      <button id="subtract">-</button><span id="output">0</span
+      ><button id="add">+</button>
+    </div></body>
+<script>
+let add = document.querySelector("#add");
+let subract = document.querySelector("#subtract");
+
+add.addEventListener("click", function () {
+  let output = document.querySelector("#output");
+  let result = Number(output.innerText) + 1;
+  output.innerText = result;
+});
+
+subract.addEventListener("click", function () {
+  let output = document.querySelector("#output");
+  let result = Number(output.innerText) - 1;
+  output.innerText = result;
+});
+</script>
+</html>

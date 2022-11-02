@@ -1,0 +1,41 @@
+// Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+
+console.log("Welcome to Programiz!");
+let user = {
+    name:'fist',
+    age:30
+};
+let member = {}
+for(let key in user){
+    member[key] = user[key];
+}
+member.name = 'fury';
+console.log(user.name);
+
+let emp={
+    var1:'Alex',
+    var2:'Gloque',
+    sayHi(){
+        alert(this.var2);
+    }
+};
+emp.sayHi();
+let emp1={
+    var1:'Alex',
+    var2:'Gloque',
+    sayHi(){
+        alert(emp1.var1);
+    }
+};
+emp1.sayHi();
+
+let obj1 = {var1:'Alex00',
+    var2:'Gloqu0e00'};
+let obj2 = {var1:'Alex100',
+    var2:'Gloque100'};
+    function fun(){
+        alert(obj1.var2);
+    }
+    fun();
+    

@@ -7,3 +7,10 @@ if(OS == 'Mac'){
 }else{
   alert('others');
 }
+
+let greet = 'Hi';
+            function sayHi(greeting){
+                let fname = prompt('enter your name');
+                alert(`${greeting} ${fname}`+greeting);
+            }
+            sayHi(greet);
